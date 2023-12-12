@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* todas as mídias*/
+
+@media print{
+
+
+}
+
+@media screen and (min-width: 768px) {
+    span#tracinho{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+}
+main{
+    width: 768px; /* conteudo não esta travando*/
+
+}
+@media screen and (min-width: 992px) and(max-width: 1200px) {
+    
+}
+@media screen and (min-width: 1200px) {
+    
+}
+

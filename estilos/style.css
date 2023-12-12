@@ -1,0 +1,86 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+html{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body{
+    background: black url(../background-imagem/lenco-tv.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.637);
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+header> h1{
+    text-align: center;
+    color: #a1622c;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+
+}
+span#tracinho{
+    background-color: #ffecdb;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10px;
+
+}
+span#tracinho:hover{
+    background-color:  #c98b55;
+    color: #ffecdb;
+}
+menu{
+    display: block;
+}
+menu > ul {
+    list-style-type: none;
+}
+menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffecdb;
+    color: black;
+    border-top: 2px solid rgb(156, 155, 155);
+
+}
+menu a:hover {
+    background-color: #c98b55;
+    color: #ffecdb;
+}
+main {
+    width: 90vw;
+    background-color: rgba(255, 255, 255, 0.767);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+article > h2{
+    padding-bottom: 20px;
+    color: #a1622c;
+
+}
+article > p {
+    text-align: justify;
+    color: black;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}

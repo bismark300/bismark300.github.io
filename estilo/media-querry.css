@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* todas as midias*/
+@media print{
+
+}
+
+@media screen and (max-width: 600px){
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url(../background-imagem/lenco-tablet.jpeg);
+    }
+    
+
+}
+@media screen and (min-width: 992px) and (mas-width: 1200px){
+    body{
+        background-image: url(../background-imagem/lenco-pc.jpeg);
+    }
+
+}
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../background-imagem/lenco-tv.jpeg);
+    }
+}

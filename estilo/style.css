@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* versão mobile*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body,html{
+    
+    height: 100vh;
+}
+body{
+    background: black url(../background-imagem/lenco-mobile.jpeg) ;
+    background-size: cover;
+    background-position: center center;
+
+}
+div{
+    background-color: rgba(255, 255, 255, 0.801);
+    width: 70vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.192);
+    color: #732020;
+    font-size: 17px;
+}
+h2{
+    color: #BF4904;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.192);
+    font-size: 15px;
+
+}
+h3{
+    color: #F29F05;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.192);
+    font-size: 15px;
+}
