@@ -19,7 +19,7 @@
     }
 }
 main{
-    width: 768px; /* conteudo não esta travando*/
+    max-width: 768px; 
 
 }
 @media screen and (min-width: 992px) and(max-width: 1200px) {
